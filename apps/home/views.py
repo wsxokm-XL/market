@@ -1,5 +1,6 @@
 from django.shortcuts import render, redirect
 from django.views import View
+from django.contrib.auth import logout
 from ..register.models import User
 
 
@@ -18,4 +19,10 @@ class HomeView(View):
             return render(request, 'home.html', dict)
 
     def post(self, request):
-        pass
+        """退出登录"""
+        logout(request)
+        return redirect('/home/home')
+
+
+
+

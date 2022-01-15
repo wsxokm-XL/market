@@ -24,6 +24,7 @@ class IndexView(View):
             return render(request, 'index.html', dict)
 
     def post(self, request):
+        """购买商品"""
         shopid = request.POST.get('shopid')
         nums = request.POST.get('nums')
         uid = int(request.user.id)
@@ -32,11 +33,11 @@ class IndexView(View):
             if query[i].shops_id == shopid:
                 total = nums * query[i].price
 
-        ShoppingRecords.objects.create(shops_id=shopid, id=request.user.id, nums=nums, total=total)
-        # try:
-        #     ShoppingRecords.objects.create(shops_id=shopid, id=request.user.id, nums=nums, total=total)
-        # except Exception as e:
-        #     return render(request, 'index.html', {'shopping_error': '购买失败'})
+        try:
+            ShoppingRecords.objects.create(shops_id=shopid, id=request.user.id, nums=nums, total=total)
+        except Exception as e:
+            pass
+            # return render(request, 'index.html', {'shopping_error': '购买失败'})
 
         return redirect('/home/home')
 

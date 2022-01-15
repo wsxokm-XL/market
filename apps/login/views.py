@@ -4,13 +4,17 @@ from django.contrib import auth
 from ..register.models import User
 from django import http
 
+
 class LoginView(View):
 
     def get(self, request):
         """登录"""
-        return render(request, 'login.html')
+        if request.user.is_authenticated:
+            return redirect('/home/home')
+        else:
+            return render(request, 'login.html')
 
-    def post(self,request):
+    def post(self, request):
         username = request.POST.get('username', '')
         password = request.POST.get('password', '')
 
@@ -21,3 +25,4 @@ class LoginView(View):
             return redirect('/home/home')
         else:
             return render(request, 'login.html', {'register_errmsg': '用户名或密码错误'})
+
