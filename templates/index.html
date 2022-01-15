@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="ID=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <link rel="stylesheet" href="/static/css/index.css">
+    <title>商品页</title>
+</head>
+<body>
+    {% comment %}<div class="shops">
+        <p>商品序号     商品名字    商品价格    商品库存</p>
+        <a>{{  shop_id1 }}   {{ shop_name1 }}     {{ shop_price1 }}    {{ shop_stock1 }}</a><br>
+        <a>{{  shop_id2 }}   {{ shop_name2 }}     {{ shop_price2 }}    {{ shop_stock2 }}</a><br>
+        <a>{{  shop_id3 }}   {{ shop_name3 }}     {{ shop_price3 }}    {{ shop_stock3 }}</a><br>
+        <a>{{  shop_id4 }}   {{ shop_name4 }}     {{ shop_price4 }}    {{ shop_stock4 }}</a><br>
+        <a>{{  shop_id5 }}   {{ shop_name5 }}     {{ shop_price5 }}    {{ shop_stock5 }}</a><br>
+    </div>{% endcomment %}
+    <div class="shops">
+        <table>
+            <caption>商品数据</caption>
+        <tr>
+            <th><p>商品序号</p></th>
+            <th><p>商品名字</p></th>
+            <th><p>商品价格</p></th>
+            <th><p>商品库存</p></th>
+        </tr>
+        <tr>
+            <td><a>{{  shop_id1 }}</a></td>
+            <td><a>{{  shop_name1 }}</a></td>
+            <td><a>{{  shop_price1 }}</a></td>
+            <td><a>{{  shop_stock1 }}</a></td>
+        </tr>
+        <tr>
+            <td><a>{{  shop_id2 }}</a></td>
+            <td><a>{{  shop_name2 }}</a></td>
+            <td><a>{{  shop_price2 }}</a></td>
+            <td><a>{{  shop_stock2 }}</a></td>
+        </tr>
+        <tr>
+            <td><a>{{  shop_id3 }}</a></td>
+            <td><a>{{  shop_name3 }}</a></td>
+            <td><a>{{  shop_price3 }}</a></td>
+            <td><a>{{  shop_stock3 }}</a></td>
+        </tr>
+        <tr>
+            <td><a>{{  shop_id4 }}</a></td>
+            <td><a>{{  shop_name4 }}</a></td>
+            <td><a>{{  shop_price4 }}</a></td>
+            <td><a>{{  shop_stock4 }}</a></td>
+        </tr>
+        <tr>
+            <td><a>{{  shop_id1 }}</a></td>
+            <td><a>{{  shop_name1 }}</a></td>
+            <td><a>{{  shop_price1 }}</a></td>
+            <td><a>{{  shop_stock1 }}</a></td>
+        </tr>
+        </table>
+    </div>
+
+    <div class="shopping">
+        <h4>提交购物订单</h4>
+        <form method="POST" action="">
+            <div class="table">
+            <div class="w"><p>商品序号：</p></div>
+            <input class="in" type="text" name="shopid">
+            <div class="w"><p>商品数量：</p></div>
+            <input class="in" type="text" name="nums">
+            </div>
+            <input class="submit" type="submit" value="购 买">
+        </form>
+    </div>
+</body>
+</html>
