@@ -2,68 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="14161ec9-ca73-453c-9f0a-c419dffcb042" name="变更" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/market.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/apps/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/apps/home/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/apps/home/admin.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/apps/home/apps.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/apps/home/migrations/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/apps/home/models.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/apps/home/tests.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/apps/home/urls.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/apps/home/views.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/apps/index/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/apps/index/admin.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/apps/index/apps.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/apps/index/migrations/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/apps/index/models.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/apps/index/tests.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/apps/index/urls.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/apps/index/views.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/apps/login/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/apps/login/admin.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/apps/login/apps.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/apps/login/migrations/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/apps/login/models.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/apps/login/tests.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/apps/login/urls.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/apps/login/views.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/apps/register/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/apps/register/admin.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/apps/register/apps.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/apps/register/check.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/apps/register/migrations/0001_initial.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/apps/register/migrations/0002_user_money.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/apps/register/migrations/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/apps/register/models.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/apps/register/tests.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/apps/register/urls.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/apps/register/views.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/market/db.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mysql/data_init.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mysql/market_db_setup.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/readme/开题报告.docx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/readme/数据库设计报告.docx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/readme/物理E-R.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/readme/逻辑E-R.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/readme/项目计划.pptx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/css/home.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/css/index.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/css/login.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/css/register.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/image/1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/image/CET6.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/home.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/login.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/register.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/用户守则.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/index/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/apps/index/views.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -235,7 +175,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1642153251869</updated>
-      <workItem from="1642153330273" duration="69510000" />
+      <workItem from="1642153330273" duration="70544000" />
     </task>
     <servers />
   </component>

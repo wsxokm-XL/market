@@ -15,7 +15,7 @@ class IndexView(View):
             query = Shops.objects.all()
             # print(query[0].shops_id)
             # print(len(query))
-            dict={ "shop_id1": query[0].shops_id, "shop_price1": query[0].price,
+            dict={"shop_id1": query[0].shops_id, "shop_price1": query[0].price,
        "shop_stock1": query[0].stock, "shop_name1": query[0].name, "shop_id2": query[1].shops_id, "shop_price2": query[1].price,
        "shop_stock2": query[1].stock, "shop_name2": query[1].name, "shop_id3": query[2].shops_id, "shop_price3": query[2].price,
        "shop_stock3": query[2].stock, "shop_name3": query[2].name, "shop_id4": query[3].shops_id, "shop_price4": query[3].price,
